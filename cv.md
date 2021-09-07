@@ -31,10 +31,11 @@ In the future, I see myself as a samurai in the field of frontend development.
 
 
 ## My project: ##
-[Udemy-project:](https://github.com/zhirkovpetr/udemy-project) 
-[Learning-cards:](https://github.com/zhirkovpetr/learning-cards-1)
-[Social-network:](https://github.com/zhirkovpetr/social-network)
-[Todo list:](https://github.com/zhirkovpetr/TodoList) 
+* [Udemy-project:](https://github.com/zhirkovpetr/udemy-project) [https://github.com/zhirkovpetr/udemy-project](https://github.com/zhirkovpetr/udemy-project) <br />
+* [Learning-cards:](https://github.com/zhirkovpetr/learning-cards-1) [https://github.com/zhirkovpetr/learning-cards-1](https://github.com/zhirkovpetr/learning-cards-1) <br />
+* [Social-network:](https://github.com/zhirkovpetr/social-network) [https://github.com/zhirkovpetr/social-network](https://github.com/zhirkovpetr/social-network) <br />
+* [Todo list:](https://github.com/zhirkovpetr/TodoList) [https://github.com/zhirkovpetr/TodoList](https://github.com/zhirkovpetr/TodoList)
+
 
 ## Work experience: ##
 I took a free course at [HTML Academy](https://htmlacademy.ru/) on HTML, CSS, then I finished a course on HTML and CSS at [udemy-project](https://www.udemy.com/), then I finished courses on React / Redux ( JS / TS) [IT-incubator](http://it-kamasutra.com/).
