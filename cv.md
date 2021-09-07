@@ -1,7 +1,7 @@
 # Petr Zhirkov #
 
 ## Contact: ##
-☎ +375 25 7170668
+☎ +375 25 7170668 <br />
 [<img align='left' alt='zhirkov_petr | gmail' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg' />][gmail] [zhirkovpetr95@gmail.com](mailto:zhirkovpetr95@gmail.com) <br /> 
 [<img align='left' alt='zhirkov_petr | telegram' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/telegram.svg' />][telegram] [https://t.me/zhirkovpetr](https://t.me/zhirkovpetr)  <br />
 [<img align='left' alt='zhirkov_petr | github' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg' />][github] [https://github.com/zhirkovpetr](https://github.com/zhirkovpetr) <br />
