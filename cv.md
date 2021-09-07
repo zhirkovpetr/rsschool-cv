@@ -5,13 +5,14 @@
 [<img align='left' alt='zhirkov_petr | gmail' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg' />][gmail] [zhirkovpetr95@gmail.com](mailto:zhirkovpetr95@gmail.com) <br /> 
 [<img align='left' alt='zhirkov_petr | telegram' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/telegram.svg' />][telegram] [https://t.me/zhirkovpetr](https://t.me/zhirkovpetr)  <br />
 [<img align='left' alt='zhirkov_petr | github' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg' />][github] [https://github.com/zhirkovpetr](https://github.com/zhirkovpetr) <br />
-[<img align='left' alt='zhirkov_petr | codewars' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/codewars.svg' />] [https://www.codewars.com/users/zhirkov_petr](https://www.codewars.com/users/zhirkov_petr) <br />
+[<img align='left' alt='zhirkov_petr | codewars' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/codewars.svg' />] [codewars] [https://www.codewars.com/users/zhirkov_petr] (https://www.codewars.com/users/zhirkov_petr) <br />
 [<img align='left' alt='zhirkov_petr | linkedin' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg' />][linkedin] [https://www.linkedin.com/in/zhirkovpetr/](https://www.linkedin.com/in/zhirkovpetr/)
 
 [telegram]: https://t.me/zhirkovpetr
 [github]: https://github.com/zhirkovpetr
 [gmail]: mailto:zhirkovpetr95@gmail.com
 [linkedin]: https://www.linkedin.com/in/zhirkovpetr/
+[codewars]: https://www.codewars.com/users/zhirkov_petr
 
 ## About me: ##
 I've been learning JavaScript for about half a year and I really like it.
