@@ -14,21 +14,21 @@
 [gmail]: mailto:zhirkovpetr95@gmail.com
 [linkedin]: https://www.linkedin.com/in/zhirkovpetr/
 
-About me:
+## About me: ##
 I've been learning JavaScript for about half a year and I really like it.
-In my free time I solve problems on codewars https://www.codewars.com/users/zhirkovpetr, learn React, and also improve my English.
+In my free time I solve problems on [codewars](https://www.codewars.com/users/zhirkov_petr), learn React, and also improve my English.
 I am disciplined and purposeful.
 In the future, I see myself as a samurai in the field of frontend development.
 
-Skills:
-React/Redux/Thunk
-JavaScript/TypeScript
-Axios/Rest API
-Unit Tests/StoryBook
-Ant design/Material-UI
-HTML/CSS
-Git
-Jira
+## Skills: ##
+* React/Redux/Thunk <br />
+* JavaScript/TypeScript <br />
+* Axios/Rest API <br />
+* Unit Tests/StoryBook <br />
+* Ant design/Material-UI <br />
+* HTML/CSS <br />
+* Git <br />
+* Jira 
 
 
 My project:
