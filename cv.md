@@ -1,11 +1,16 @@
-Petr Zhirkov
+# Petr Zhirkov #
 
-Contact:
-  : +375 25 7170668
-email: zhirkovpetr@gmail.com
-telegram: https://t.me/zhirkovpetr
-github: https://github.com/zhirkovpetr
-coderwars: https://www.codewars.com/users/zhirkovpetr
+## Contact: ##
+☎ +375 25 7170668
+[gmail]: mailto:zhirkovpetr95@gmail.com [zhirkovpetr](mailto:zhirkovpetr95@gmail.com) 
+[<img align='left' alt='zhirkov_petr | telegram' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/telegram.svg' />][telegram] [zhirkovpetr](https://t.me/zhirkovpetr)  
+[<img align='left' alt='zhirkov_petr | github' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/github.svg' />][github] [zhirkovpetr](https://github.com/zhirkovpetr) 
+[<img align='left' alt='zhirkov_petr | codewars' width='22px' src='https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/codewars.svg' />][codewars] [zhirkovpetr](https://www.codewars.com/users/zhirkov_petr) 
+
+[telegram]: https://t.me/zhirkovpetr
+[codewars]: https://www.codewars.com/users/zhirkov_petr
+[github]: https://github.com/zhirkovpetr
+[gmail]: mailto:zhirkovpetr95@gmail.com
 
 About me:
 I've been learning JavaScript for about half a year and I really like it.
