@@ -1,21 +1,107 @@
-.contact_city{
-    background-image: url("images/icons/locate_gps_navigation_pin_point_location_icon-icons.com_59906.svg");
+body{
+    margin: 0;
 }
-.contact_telephone{
-    background-image: url("images/icons/cellphone_79786.svg");
+img {
+    max-width: 100%;
 }
-.contact_gmail{
-    background-image: url("images/icons/gmail-logo_icon-icons.com_72739.svg");
+
+.container {
+    min-height: 100vh;
+    width: 60%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 auto;
 }
-.contact_telegram{
-    background-image: url("images/icons/telegram_icon_131945.svg");
+
+.sidebar {
+    width: 30%;
+    background-color: rgb(51, 103, 214);
+    color: white;
 }
-.contact_linkedin{
-     background-image: url("images/icons/LinkedIn_Rounded_Solid_icon-icons.com_61559.svg");
- }
-.contact_github{
-    background-image: url("images/icons/github-logo_icon-icons.com_73546.svg");
+
+.profile_photo {
+    display: block;
 }
-.contact_codewars{
-    background-image: url("images/icons/codewars_logo_icon_145389.svg");
+
+.sidebar_container{
+    margin: 5px 20px 0 20px;
+}
+
+.contact_list {
+    list-style: none;
+    color: white;
+    line-height: 45px;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.contact_element_list{
+    display: flex;
+    align-items: flex-start;
+    color: white;
+}
+
+.contact_element_list a {
+    color: white;
+}
+
+.contact_element_list img{
+    padding-right: 10px;
+}
+
+.icons_container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+
+.skills_list {
+    margin-left: 20px;
+    padding: 0;
+    color: white;
+    line-height: 25px;
+}
+.languages_list {
+    list-style: none;
+    padding: 0;
+    line-height: 10px;
+    color: white;
+}
+.main{
+    width: 70%;
+    color: black;
+    background-color: #E6E6E6;
+    padding: 0 20px 0 20px;
+}
+.qr_code{
+    display: flex;
+    justify-content: right;
+}
+
+.my_name{
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 50px;
+}
+
+.my_name h1{
+    padding: 0;
+    margin: 0;
+}
+
+.profession{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    color: #6e6e6e;
+}
+
+.about_me{
+    font-size: 16px;
+    line-height: 28px;
+}
+.about_me_info{
+    text-align: justify;
 }

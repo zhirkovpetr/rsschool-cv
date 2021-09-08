@@ -6,91 +6,106 @@
 <link rel="stylesheet" href="style.css">
 <title>CV Zhirkov Petr</title>
 <body>
-<div>
-    <aside>
-        <div>
-            <img src="images/myPhotos.jpg" alt="my-img">
-        </div>
+<div class="container">
+    <main class="main">
+        <header class="header">
+            <img class="qr_code" src="images/qr-code-telegram.jpg" alt="qr-code-telegram">
+            <h1 class="my_name">Zhirkov Petr</h1>
+            <div class="profession">FRONT-END DEVELOPER</div>
+        </header>
+        <section class="about_me">
+            <h2>About me</h2>
+            <p class="about_me_info">I've been learning JavaScript for about half a year and I really like it. In my
+                free time I solve
+                problems on <a href="https://www.codewars.com/users/zhirkov_petr" target="_blank">codewars</a>,
+                learn React, and also improve my English.
+                I am disciplined and purposeful. In the future, I see myself as a samurai in the field of frontend
+                development.
+            </p>
+        </section>
+        <section class="work_experience">
+            <h2>Work experience</h2>
+            <p>I took a free course at HTML Academy on HTML, CSS, then I finished a course on HTML and CSS at udemy,
+                then I finished courses on React / Redux ( JS / TS) IT-incubator.
+                I also solve problems on <a href="https://www.codewars.com/users/zhirkov_petr"
+                                            target="_blank">codewars</a>
+                All my works can be viewed at <a href="https://github.com/zhirkovpetr" target="_blank">github</a>.
+            </p>
+        </section>
+        <section class="education">
+            <h2>Education</h2>
+            <ul>
+                <li>mechanical engineer (Mining machinery and equipment), BNTU</li>
+                <li>automotive electronics engineer (Automotive electronics), BNTU</li>
+                <li>HTML&CSS, <a href="https://www.udemy.com/" target="_blank">udemy</a></li>
+                <li>React / Redux ( JS / TS), <a href="https://it-kamasutra.com/"
+                                                 target="_blank">IT-incubator</a></li>
+            </ul>
+        </section>
+        <footer>
+            <a href="https://github.com/zhirkovpetr" target="_blank">
+                <div class="contact_github"></div>
+            </a>
+            <div>©2021 All Right Reserved</div>
+            <a href="https://github.com/zhirkovpetr" target="_blank">
+                <div class="footer_rs"></div>
+            </a>
+        </footer>
+    </main>
+    <aside class="sidebar">
+        <img class="profile_photo" src="images/myPhotos.jpg" alt="profile photo">
+        <div class="sidebar_container">
         <section>
             <h2>Contact</h2>
-            <div>
-                <ul>
-                    <li class="contact_city">Minsk, Belarus</li>
-                    <li class="contact_telephone"><a href="tel:+375257170668" target="_blank">+375 25 7170668</a></li>
-                    <li class="contact_gmail"><a href="mailto:zhirkovpetr95@gmail.com" target="_blank">zhirkovpetr95@gmail.com</a></li>
-                </ul>
-            </div>
-            <div>
-                <a href="https://t.me/zhirkovpetr" target="_blank"><div class="contact_telegram"></div></a>
-                <a href="https://www.linkedin.com/in/zhirkovpetr/" target="_blank"><div class="contact_linkedin"></div></a>
-                <a href="https://github.com/zhirkovpetr" target="_blank"><div class="contact_github"></div></a>
-                <a href="https://www.codewars.com/users/zhirkov_petr" target="_blank"><div class="contact_codewars"></div></a>
+            <ul class="contact_list">
+                <li class="contact_element_list"><img src="images/icons/location.svg" alt="Location" width="32px">Minsk,
+                    Belarus
+                </li>
+                <li class="contact_element_list"><img src="images/icons/phone.svg" alt="Phone_number" width="32px"><a
+                        href="tel:+375257170668" target="_blank">+375 25 7170668</a></li>
+                <li class="contact_element_list"><img src="images/icons/gmail.svg" alt="Gmail" width="32px"><a
+                        href="mailto:zhirkovpetr95@gmail.com" target="_blank">zhirkovpetr95@gmail.com</a></li>
+            </ul>
+            <div class="icons_container">
+                <a class="icons_container_element" href="https://t.me/zhirkovpetr" target="_blank">
+                    <img src="images/icons/telegram.svg" alt="Telegram" height="32px">
+                </a>
+                <a href="https://www.linkedin.com/in/zhirkovpetr/" target="_blank">
+                    <img src="images/icons/linkedin.svg" alt="LinkedIn"
+                         height="32px">
+                </a>
+                <a href="https://github.com/zhirkovpetr" target="_blank">
+                    <img src="images/icons/github.svg" alt="Github" height="32px">
+                </a>
+                <a href="https://www.codewars.com/users/zhirkov_petr" target="_blank">
+                    <img src="images/icons/codewars.svg" alt="Codewars" height="32px">
+                </a>
+                <a href="https://www.instagram.com/zhirkov_petr/" target="_blank">
+                    <img src="images/icons/instagram.svg" alt="Instagram" height="32px">
+                </a>
             </div>
         </section>
         <section>
             <h2>Skills</h2>
-            <div>
-                <ul>
-                    <li>React/Redux/Thunk</li>
-                    <li>JavaScript/TypeScript</li>
-                    <li>Axios/Rest API</li>
-                    <li>Unit Tests/StoryBook</li>
-                    <li>Ant design/Material-UI</li>
-                    <li>HTML/CSS</li>
-                    <li>Git</li>
-                    <li>Jira</li>
-                </ul>
-            </div>
+            <ul class="skills_list">
+                <li>React/Redux/Thunk</li>
+                <li>JavaScript/TypeScript</li>
+                <li>Axios/Rest API</li>
+                <li>Unit Tests/StoryBook</li>
+                <li>Ant design/Material-UI</li>
+                <li>HTML/CSS</li>
+                <li>Git</li>
+                <li>Jira</li>
+            </ul>
         </section>
         <section>
             <h2>Languages</h2>
-            <div>
-                <ul>
-                    <li>English- Pre-Intermediate (in progress)</li>
-                </ul>
-            </div>
+            <ul class="languages_list">
+                <li>English- Pre-Intermediate (in progress)</li>
+            </ul>
         </section>
-    </aside>
-    <main>
-        <header>
-            <div>
-                <img src="images/qr-code-telegram.jpg" alt="qr-code-telegram">
-            </div>
-            <div><h1>Zhirkov Petr</h1></div>
-            <div>FRONT-END DEVELOPER</div>
-        </header>
-        <div>
-            <section>
-                <h2>About me</h2>
-                <p></p>
-            </section>
-            <section>
-                <h2>Work experience</h2>
-                <p></p>
-            </section>
-            <section>
-                <h2>Education</h2>
-                <div>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-            </section>
-        </div>
-        <footer>
-            <div></div>
-            <div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </div>
-            <div></div>
-        </footer>
-    </main>
+</div>
+</aside>
 </div>
 </body>
 </html>
