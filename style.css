@@ -1,0 +1,393 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    width: 1000px;
+    height: 100%;
+}
+
+/*header*/
+.header {
+    grid-area: 1 / 2 / 2 / 3;
+    line-height: 36px;
+    background-color: #E6E6E6;
+    padding: 150px 30px 0 30px;
+}
+
+.my_name {
+    font-size: 60px;
+    font-weight: 800;
+    margin-top: 50px;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 789px) {
+    .my_name {
+        line-height: 45px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.my_name h1 {
+    padding: 0;
+    margin: 0;
+}
+
+.profession {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    color: #3f3f3f;
+}
+
+.profession_span {
+    color: #6e6e6e;
+}
+
+/*main*/
+.hr_main {
+    border: none;
+    background: rgb(51, 103, 214);
+    height: 2px;
+    width: 100%;
+    opacity: 0.2;
+    margin-bottom: 30px;
+}
+
+.hr_main:hover {
+    background: rgb(33, 95, 236);
+    opacity: 0.5;
+}
+
+.main {
+    grid-area: 2 / 2 / 3 / 3;
+    color: black;
+    background-color: #E6E6E6;
+    padding: 0 30px 0 30px;
+}
+
+.main a {
+    color: black;
+}
+
+.main a:hover {
+    color: rgb(88, 134, 231);
+}
+
+.main a:active {
+    color: white;
+}
+
+.about_me {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.about_me_info {
+    text-align: justify;
+}
+
+@media only screen and (max-width: 988px) {
+    .about_me_info {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 988px) {
+    .about_work {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.work_block {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 970px) {
+    .work_block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.work {
+    width: 220px;
+    height: 230px;
+}
+
+.my_work {
+    width: 210px;
+    height: 220px;
+    background-color: #E6E6E6;
+    border: 1px solid #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+}
+
+.my_work:hover {
+    width: 101%;
+    height: 101%;
+    background-color: #d9d9d9;
+    border: 1px solid #dadada;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    box-shadow: 2px 8px 8px 2px rgba(0, 0, 0, 0.3);
+    transition-duration: 1s;
+}
+
+.my_work img {
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.project_title {
+    margin: auto;
+}
+
+.education_list {
+    margin-left: 15px;
+    padding: 0;
+}
+
+/*footer*/
+.footer {
+    grid-area: 3 / 2 / 4 / 3;
+    width: 100%;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(51, 103, 214);
+}
+
+.footer_box {
+    width: 50px;
+}
+
+@media only screen and (max-width: 700px) {
+    .reserved_footer {
+        display: none;
+    }
+}
+
+/*sidebar*/
+.hr_sidebar {
+    border: none;
+    background: white;
+    height: 2px;
+    width: 100%;
+    opacity: 0.2;
+    margin-bottom: 35px;
+}
+
+.hr_sidebar:hover {
+    background: white;
+    opacity: 0.5;
+}
+
+.sidebar {
+    grid-area: 1 / 1 / 4 / 2;
+    background-color: rgb(51, 103, 214);
+    color: white;
+}
+
+@media only screen and (max-width: 606px) {
+    .sidebar {
+        display: none;
+    }
+}
+
+.profile_photo {
+    display: block;
+    width: 100%;
+}
+
+@media only screen and (max-width: 606px) {
+    .profile_photo {
+        display: none;
+    }
+}
+
+.sidebar_container {
+    margin: 5px 20px 0 20px;
+}
+
+.contact_list {
+    list-style: none;
+    color: white;
+    line-height: 45px;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.contact_element_list {
+    display: flex;
+    align-items: flex-start;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.contact_element_list a {
+    color: white;
+}
+
+.contact_element_list a:hover {
+    color: #111;
+}
+
+.contact_element_list a:active {
+    color: rgb(88, 134, 231);
+}
+
+.contact_element_list img {
+    padding-right: 10px;
+}
+
+.icons_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.icons_container_element {
+    height: 38px;
+}
+
+a svg:hover #facebook,
+a svg:hover #instagram,
+a svg:hover #github,
+a svg:hover #linkedin,
+a svg:hover #telegram,
+a svg:hover #rs_school_js,
+a svg:hover #rs_school_js,
+a svg:hover #codewars {
+    fill: #111;
+}
+
+a svg:active #facebook,
+a svg:active #instagram,
+a svg:active #github,
+a svg:active #linkedin,
+a svg:active #telegram,
+a svg:active #codewars {
+    color: rgb(88, 134, 231);
+}
+
+.icons_container_element .instagram  a {
+    fill: red;
+}
+
+
+.icons_container_element a svg #facebook,
+.icons_container_element a svg #github,
+.icons_container_element a svg #linkedin,
+.icons_container_element a svg #telegram,
+.icons_container_element a svg #rs_school_js,
+.icons_container_element a svg #codewars {
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+.skills_list {
+    margin-left: 20px;
+    padding: 0;
+    color: white;
+    line-height: 25px;
+}
+
+.languages_list {
+    list-style: none;
+    padding: 0;
+    line-height: 20px;
+    color: white;
+}
+
+@media only screen and (max-width: 606px) {
+    .contact_list,
+    .icons_container,
+    .skills_list,
+    .languages_list {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
